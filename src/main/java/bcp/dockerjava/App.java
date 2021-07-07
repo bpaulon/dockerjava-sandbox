@@ -15,7 +15,10 @@ import com.github.dockerjava.core.DockerClientBuilder;
 import com.github.dockerjava.core.DockerClientConfig;
 
 /**
- * Hello world!
+ * Connects to a remote docker host and creates a container from an ubuntu:latest image.
+ * The image must exist on host (previously pulled on host).
+ * 
+ * @author bogdan_paulon
  *
  */
 public class App {
